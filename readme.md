@@ -1,17 +1,17 @@
 ## Instruções para Configurar o Projeto
 
-1. Clone o repositório:
+1. Clone o repositório
+2. :
     ```sh
     git clone https://github.com/euandr/web_app_streamlit.git
-    cd web_app_streamlit
     ```
 
-2. Instale as dependências:
+3. Instale as dependências:
     ```sh
     pip install -r requirements.txt
     ```
 
-3. Execute a aplicação:
+4. Execute a aplicação:
     ```sh
     streamlit run Login.py
     ```
