@@ -28,7 +28,7 @@ def linha():
     unsafe_allow_html=True
 )
 
-background_image_url = "https://raw.githubusercontent.com/euandr/progr_Web/refs/heads/master/fundo_login.jpg"
+background_image_url = "https://github.com/euandr/web_app_streamlit/blob/main/Images_Background/fundo_login.jpg?raw=true"
 st.markdown(
     f"""
     <style>

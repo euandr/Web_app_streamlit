@@ -5,7 +5,7 @@ import dados
 
 
 
-background_image_url = "https://raw.githubusercontent.com/euandr/progr_Web/refs/heads/master/fundo_dados.avif"
+background_image_url = "https://raw.githubusercontent.com/euandr/web_app_streamlit/refs/heads/main/Images_Background/fundo_dados.avif"
 st.markdown(
     f"""
     <style>
