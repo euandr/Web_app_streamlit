@@ -3,7 +3,13 @@ import hashlib
 
 
 
-
+def user_exists(username):
+     conn = sqlite3.connect('users.db')
+     cursor = conn.cursor()
+     cursor.execute('SELECT * FROM users WHERE username = ?', (username,))
+     user = cursor.fetchone()
+     conn.close()
+     return user is not None
 
 def conecta_bd():
     conexao = sqlite3.connect('users.db')
@@ -15,6 +21,8 @@ def hash_password(password):
 
 
 def register(username, password):
+    if user_exists(username):
+        return False # Usuário já existe
     conn = sqlite3.connect('users.db')
     cursor = conn.cursor()
     cursor.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, hash_password(password)))
