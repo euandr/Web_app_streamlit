@@ -1,6 +1,11 @@
 
 import streamlit as st
 import dados
+
+
+
+
+dados.criar_tabelas()
 # Definir a configuração da página primeiro
 st.set_page_config(
     page_title="Seja Bem-Vindo!",
