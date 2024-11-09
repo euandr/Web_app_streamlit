@@ -1,6 +1,20 @@
 import streamlit as st
 
 def app():
+
+    background_image_url = "https://raw.githubusercontent.com/euandr/web_app_streamlit/refs/heads/main/Images_Background/infor_fundo.avif"
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url({background_image_url});
+            background-size: cover;
+            background-position: center;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     st.title("Principais arquivos e programas utilizados na pagina!")
     st.markdown(
         """
