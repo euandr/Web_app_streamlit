@@ -1,9 +1,6 @@
 # Projeto de aprendizado criado para consolidar conhecimentos adquiridos durante um curso que realizei.
 
 
-## Sobre o Projeto
-Este  um projeto de aprendizado criado para consolidar conhecimentos adquiridos durante um curso que realizei.
-
 ## Descrição do Projeto
 Este é um projeto básico que inclui funcionalidades de:
 - **Cadastro de Usuários**
