@@ -1,3 +1,8 @@
+# Projeto de aprendizado criado para consolidar conhecimentos adquiridos durante um curso que realizei.
+
+
+
+
 ## Instruções para Configurar o Projeto
 
 1. Clone o repositório
