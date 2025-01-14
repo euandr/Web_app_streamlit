@@ -1,4 +1,4 @@
-# Projeto de aprendizado criado para consolidar conhecimentos adquiridos durante um curso que realizei.
+# Projeto de aprendizado criado para consolidar conhecimentos adquiridos durante um curso que realizei. / Incompleto
 
 
 ## ℹ️ Descrição do Projeto 
