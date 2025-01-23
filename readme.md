@@ -10,7 +10,7 @@ Este é um projeto básico que inclui funcionalidades de:
 - **Listagem de Usuários**
 - **dados da pagina**
 
-Foi desenvolvido utilizando Streamlit para a interface do usuário e SQLite para o armazenamento de dados.
+Foi desenvolvido utilizando Streamlit para a interface e SQLite para o armazenamento de dados.
 
 <img src = "https://github.com/euandr/web_app_streamlit/blob/main/Images_Background/Aplica%C3%A7%C3%A3o_Wed_img.png?raw=true">
 
